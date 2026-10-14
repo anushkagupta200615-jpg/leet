@@ -6,7 +6,7 @@ public:
             if(s.find(x)!=s.end()){
                 return true;
             }
-            s.insert(x);
+            s.insert();
         }
         return false;
     }
